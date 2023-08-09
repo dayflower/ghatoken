@@ -6,11 +6,12 @@ builds:
   - main: ./cmd/ghatoken
     env:
       - CGO_ENABLED=0
+    flags:
+      - -buildvcs=true
     ldflags:
       - -s -w
       - -X main.Version={{.Version}}
       - -X main.Revision={{.ShortCommit}}
-      - -buildvcs=true
     goos:
       - linux
       - windows
