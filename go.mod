@@ -1,6 +1,6 @@
 module github.com/dayflower/ghatoken/v0
 
-go 1.18
+go 1.23.0
 
 require (
 	github.com/bradleyfalzon/ghinstallation/v2 v2.6.0
@@ -11,7 +11,7 @@ require (
 
 require (
 	github.com/ProtonMail/go-crypto v0.0.0-20230717121422-5aa5874ade95 // indirect
-	github.com/cloudflare/circl v1.3.7 // indirect
+	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
